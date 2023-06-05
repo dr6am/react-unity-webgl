@@ -23,7 +23,7 @@ declare global {
    * @param onProgress The on progress event listener.
    * @returns A promise resolving when instantiated successfully.
    */
-  function createUnityInstance(
+  export function createUnityInstance(
     canvasHtmlElement: HTMLCanvasElement,
     arguments: UnityArguments,
     onProgress?: (progression: number) => void

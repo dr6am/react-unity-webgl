@@ -1,5 +1,5 @@
 {
-  "name": "react-unity-webgl",
+  "name": "fork-react-unity-webgl",
   "version": "9.4.0",
   "description": "React Unity WebGL provides a modern solution for embedding Unity WebGL builds in your React Application while providing advanced APIs for two way communication and interaction between Unity and React.",
   "keywords": [
@@ -9,7 +9,7 @@
   ],
   "homepage": "https://react-unity-webgl.dev",
   "bugs": {
-    "url": "https://github.com/jeffreylanters/react-unity-webgl/issues",
+    "url": "https://github.com/dr6am/react-unity-webgl/issues",
     "email": "jeffreylanters@me.com"
   },
   "license": "Apache-2.0",
@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jeffreylanters/react-unity-webgl.git"
+    "url": "git://github.com/dr6am/react-unity-webgl.git"
   },
   "scripts": {
     "start": "tsc --watch",
