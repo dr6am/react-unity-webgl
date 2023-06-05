@@ -23,7 +23,7 @@ declare global {
    * @param onProgress The on progress event listener.
    * @returns A promise resolving when instantiated successfully.
    */
-  export function createUnityInstance(
+  function createUnityInstance(
     canvasHtmlElement: HTMLCanvasElement,
     arguments: UnityArguments,
     onProgress?: (progression: number) => void
@@ -34,7 +34,7 @@ declare global {
    * in order to invoke the create Unity Instance and dispatch React Unity Event
    * functions, we need to declare the window object as a global type.
    */
-  interface Window {
+   interface Window {
     /**
      * Dispatches an event that has been registered to all event systems.
      * @param eventName The name of the event.
